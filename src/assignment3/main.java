@@ -14,7 +14,7 @@ public class main {
 		System.out.println(mult);
 		int[] arrrev = reverse(arr);
 		for(int i = 0; i<arrrev.length; i++) {
-			System.out.print(arrrev[i]);
+			System.out.print(arrrev[i]); // added this part
 		}
 
 	}
