@@ -18,7 +18,7 @@ public class main {
 		}
 
 	}
-	public static int sum(int[] arr) {
+	public static int sum(int[] arr) { // a sum method
 		int sum = 0;
 		for(int i = 0; i< arr.length -1;i++) {
 			sum+= arr[i];
