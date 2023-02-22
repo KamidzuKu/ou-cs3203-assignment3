@@ -12,6 +12,11 @@ public class main {
 		System.out.println(sum);
 		int mult = mult(arr);
 		System.out.println(mult);
+		int[] arrrev = reverse(arr);
+		for(int i = 0; i<arrrev.length; i++) {
+			System.out.print(arrrev[i]);
+		}
+
 	}
 	public static int sum(int[] arr) {
 		int sum = 0;
@@ -26,5 +31,13 @@ public class main {
 			sum = sum * arr[i];
 		}
 		return sum;
+	}
+	public static int[] reverse(int[] arr) {
+		int[] arrrev = new int[arr.length];
+		
+		for(int i = 0; i< arr.length -1;i++) {
+			arrrev[i] = arr[arr.length -1 -i];
+		}
+		return arrrev;
 	}
 }
